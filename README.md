@@ -42,6 +42,7 @@ StudyMeta-AI is designed as a student learning companion with different sections
 ## 📸 Screenshots
 
 Screenshots of the application will be added here.
+![StudyMeta-AI Home Screen](page%201.jpeg)
 
 ## 👨‍💻 Developer
 
