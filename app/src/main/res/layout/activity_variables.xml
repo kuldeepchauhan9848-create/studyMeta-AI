@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Variables in Java"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is a Variable?\n\nA variable is a container that stores data values. Every variable has a name, data type and value."
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Syntax:\n\nDataType variableName = value;\n\nExample:\nint age = 20;\nString name = &quot;Kuldeep&quot;;"
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Types of Variables:\n\n• Local Variable\n• Instance Variable\n• Static Variable"
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example Program:\n\npublic class Main {\n    public static void main(String[] args) {\n        int age = 20;\n        String name = &quot;Kuldeep&quot;;\n\n        System.out.println(age);\n        System.out.println(name);\n    }\n}"
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Java"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Java?\n\nJava is a high-level, object-oriented and platform-independent programming language developed by Sun Microsystems in 1995. Today, Java is owned by Oracle. Java follows the principle 'Write Once, Run Anywhere (WORA)'."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features of Java:\n\n• Simple\n• Object-Oriented\n• Platform Independent\n• Secure\n• Robust\n• Multithreaded\n• High Performance\n• Portable"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JVM (Java Virtual Machine):\n\nJVM executes Java bytecode and makes Java platform independent."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JDK (Java Development Kit):\n\nJDK contains tools required to develop Java applications."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JRE (Java Runtime Environment):\n\nJRE provides libraries and JVM required to run Java programs."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications of Java:\n\n• Android App Development\n• Web Applications\n• Desktop Applications\n• Banking Systems\n• Enterprise Software\n• Games"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

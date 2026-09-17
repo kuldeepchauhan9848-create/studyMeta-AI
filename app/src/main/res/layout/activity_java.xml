@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E24">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Notes"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Java"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnVariables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Variables"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnDataTypes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Types"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnOperators"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operators"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnIfElse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If Else"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnLoops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loops"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnArrays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arrays"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnOOP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OOP"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnException"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exception Handling"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="File Handling"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Types in Java"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Data Type?\n\nA data type specifies the type of data that a variable can store."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primitive Data Types:\n\n• byte\n• short\n• int\n• long\n• float\n• double\n• char\n• boolean"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example:\n\nint age = 20;\ndouble price = 99.99;\nchar grade = 'A';\nboolean pass = true;"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non-Primitive Data Types:\n\n• String\n• Array\n• Class\n• Object\n• Interface"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
